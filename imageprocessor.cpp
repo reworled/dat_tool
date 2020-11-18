@@ -26,10 +26,6 @@ void ImageProcessor::translateImages() {
         painter.drawImage(QPoint(0,0), img);
         painter.end();
         QString datName = m_out.path() + QDir::separator() + info.baseName() + ".dat";
-        datName.replace(QLatin1String(" "), QLatin1String("_"));
-        datName.replace(QLatin1String("_+_"), QLatin1String("_"));
-        datName.replace(QLatin1String("_-_"), QLatin1String("_"));
-        datName = datName.toLower();
         p.save(datName);
     }
     emit translationFinished();
