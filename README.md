@@ -9,4 +9,5 @@ produce the required format images, and can be used either as a study, or as
 a part of the build tools. The license is 100% open, and you can use this 
 without attribution if you need to.
 
-
+This _not_ a part of the Qt Safe Renderer framework itself, and no warranty
+is provided.
